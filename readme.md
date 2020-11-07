@@ -16,6 +16,7 @@
 |timerSoftware         | Basic Software Timer Configuration  | 
 |gruposEventos1        | Synchronizing  a Task Using Event Groups  | 
 |gruposEventos2        | Synchronizing  One, Two, and Three Tasks at the Same Time Using Event Groups| 
+|uart_eco     |UART Eco| 
 
 # Resources
 
