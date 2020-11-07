@@ -19,6 +19,10 @@
 |uart_DEMO             |Configuration of ESP32 UART port and sending a "OK" msn checking the signal with a logic analyzer | 
 |uart_eco              |UART Eco| 
 |uart_rx_tx_task       |Using tasks to TX and RX to validate de cx with the UART port| 
+|DHT            |UART Eco| 
+|uart_eco              |UART Eco| 
+|uart_eco              |UART Eco| 
+|uart_eco              |UART Eco|
 
 # Resources
 
