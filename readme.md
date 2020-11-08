@@ -19,10 +19,11 @@
 |uart_DEMO             |Configuration of ESP32 UART port and sending a "OK" msn checking the signal with a logic analyzer | 
 |uart_eco              |UART Eco| 
 |uart_rx_tx_task       |Using tasks to TX and RX to validate de cx with the UART port| 
-|DHT            |UART Eco| 
-|uart_eco              |UART Eco| 
-|uart_eco              |UART Eco| 
-|uart_eco              |UART Eco|
+|DHT Sensor            |Example digital temperature and humidity sensor - DHT sensors| 
+|i2c_scanner           |Configure i2c port and scan all the devices on it| 
+|i2c_PCA9548a          |Using i2c multiplexer PCA9548 as example of i2c por configuration| 
+|i2c_PCA_MPU6050       |Getting data from the mpu6050 sensor, using i2c multiplexer PCA9548|
+|spidemo_DAC           |Configuration of the DAC mcp4822 using the spi port|
 
 # Resources
 
