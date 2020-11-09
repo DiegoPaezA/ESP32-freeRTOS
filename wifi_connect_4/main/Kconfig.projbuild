@@ -1,0 +1,12 @@
+  
+menu "WIFI CONNECT"
+
+config WIFI_SSID
+    string "SSID"
+    default "FAMILIA_PYP"
+
+config WIFI_PASSWORD
+    string "PASSWORD"
+    default "SgYwZW1M"  
+
+endmenu
