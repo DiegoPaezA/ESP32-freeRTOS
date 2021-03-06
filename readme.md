@@ -6,7 +6,7 @@
 
 | Firmware       |Descripción			|
 |----------------|-------------------------------|
-|Task_FreeRTOS         | Basic Blink Example from ESP-IDF|
+|[Task_FreeRTOS](https://github.com/DiegoPaezA/FreeRTOS_Examples/tree/master/Task_FreeRTOS)         | Basic Blink Example from ESP-IDF|
 |Tareas_Planificador   | Testing Task and MultiCore (Needs Logic Analyzer)| 
 |Semaforo_Test         | Basic Binary Semaphore Test   | 
 |Semaforo_Mutex        | Basic Mutex Semaphore Test   | 
