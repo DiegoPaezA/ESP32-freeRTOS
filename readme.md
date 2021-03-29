@@ -9,7 +9,7 @@ https://github.com/DiegoPaezA/FreeRTOS_Examples/tree/master/TaskNotification_1
 |[Task_FreeRTOS](https://github.com/DiegoPaezA/FreeRTOS_Examples/tree/master/Task_FreeRTOS)         | Basic Blink Example from ESP-IDF|
 |[Task scheduler](https://github.com/DiegoPaezA/FreeRTOS_Examples/tree/master/tareas_Planificador_1)| Testing Task and MultiCore|
 |[Task notifaction 1](https://github.com/DiegoPaezA/FreeRTOS_Examples/tree/master/TaskNotification_1)   |Simple basic Task Notification Example| 
-|[Task notifaction 2](https://github.com/DiegoPaezA/FreeRTOS_Examples/tree/master/Task%20Notification%202)| Testing Task and MultiCore|
+|[Task notifaction 2](https://github.com/DiegoPaezA/FreeRTOS_Examples/tree/master/Task%20Notification%202)| Send data with a Task Notification|
 |[Semaphores Test](https://github.com/DiegoPaezA/FreeRTOS_Examples/tree/master/Semaforo_Test1)      | Basic Binary Semaphore Test   | 
 |[Semaphores_Mutex](https://github.com/DiegoPaezA/FreeRTOS_Examples/tree/master/Semaforo_Mutex_1)   | Basic Mutex Semaphore Test   | 
 |[Semaphores_Counter](https://github.com/DiegoPaezA/FreeRTOS_Examples/tree/master/Semaforo_Contador1)| Basic Counting Semaphore Test   |
