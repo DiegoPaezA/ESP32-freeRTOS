@@ -1,7 +1,5 @@
 # Basic Examples of FreeRTOS for the ESP32 Using ESP-IDF
 
-https://github.com/DiegoPaezA/FreeRTOS_Examples/tree/master/TaskNotification_1
-
 # Examples
 
 | Firmware       |Descripción			|
