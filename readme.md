@@ -10,6 +10,7 @@
 |[Task notifaction 2](https://github.com/DiegoPaezA/FreeRTOS_Examples/tree/master/Task%20Notification%202)| Send data with a Task Notification|
 |[Semaphores Test](https://github.com/DiegoPaezA/FreeRTOS_Examples/tree/master/Semaforo_Test1)      | Basic Binary Semaphore Test   | 
 |[Semaphores_Mutex](https://github.com/DiegoPaezA/FreeRTOS_Examples/tree/master/Semaforo_Mutex_1)   | Basic Mutex Semaphore Test   | 
+|[Semaphores_Mutex 2](https://github.com/DiegoPaezA/FreeRTOS_Examples/tree/master/mutex_2)   | Basic Mutex Semaphore Test 2  | 
 |[Semaphores_Counter](https://github.com/DiegoPaezA/FreeRTOS_Examples/tree/master/Semaforo_Contador1)| Basic Counting Semaphore Test   |
 |[cxColas1 - Queue 1](https://github.com/DiegoPaezA/FreeRTOS_Examples/tree/master/cxColas_1)        | Sending Data From Task1 to Task2 Using Queue  | 
 |[cxColas2 - Queue 2](https://github.com/DiegoPaezA/FreeRTOS_Examples/tree/master/cxColas_2)        | Sending Data From Task1 and Task2 to Task3 Using Queue  | 
