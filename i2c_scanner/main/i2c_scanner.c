@@ -24,18 +24,20 @@ void app_main() {
 	printf("i2c scanner\r\n\r\n");
 
 	// configure the i2c controller 0 in master mode, normal speed
+	// https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/i2c.html
 	i2c_config_t conf;
 	conf.mode = I2C_MODE_MASTER;
 	conf.sda_io_num = 21;
 	conf.scl_io_num = 22;
 	conf.sda_pullup_en = GPIO_PULLUP_ENABLE;
 	conf.scl_pullup_en = GPIO_PULLUP_ENABLE;
-	conf.master.clk_speed = 100000;
+	conf.master.clk_speed = I2C_MASTER_FREQ_HZ; //100000
+	conf.clk_flags = 0; //(V4.4)  is 0, the clock allocator will select only according to the desired frequency.
 	ESP_ERROR_CHECK(i2c_param_config(I2C_NUM_0, &conf));
 	printf("- i2c controller configured\r\n");
 
 	// install the driver
-	ESP_ERROR_CHECK(i2c_driver_install(I2C_NUM_0, I2C_MODE_MASTER, 0, 0, 0));
+	ESP_ERROR_CHECK(i2c_driver_install(I2C_NUM_0, I2C_MODE_MASTER, I2C_MASTER_RX_BUF_DISABLE, I2C_MASTER_TX_BUF_DISABLE, 0));
 	printf("- i2c driver installed\r\n\r\n");
 
 	printf("scanning the bus...\r\n\r\n");
