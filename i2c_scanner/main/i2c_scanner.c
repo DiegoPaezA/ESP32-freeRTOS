@@ -8,6 +8,9 @@
 // Error library
 #include "esp_err.h"
 
+#define I2C_MASTER_RX_BUF_DISABLE 0
+#define I2C_MASTER_TX_BUF_DISABLE 0
+#define I2C_MASTER_FREQ_HZ 100000
 
 // loop task
 void loop_task(void *pvParameter)
