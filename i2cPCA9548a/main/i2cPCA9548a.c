@@ -26,6 +26,7 @@
 
 #define ACK_VAL    0x0
 #define NACK_VAL   0x1
+#define I2C_MASTER_FREQ_HZ 100000
 
 void selectI2CChannel(int muxADD, int channelADD) {
 
@@ -78,7 +79,7 @@ void loop_task(void *pvParameter)
 void app_main() {
 
 	printf("i2c scanner\r\n\r\n");
-
+// https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/i2c.html
 	// configure the i2c controller 0 in master mode, normal speed
 	i2c_config_t conf;
 	conf.mode = I2C_MODE_MASTER;
@@ -86,7 +87,8 @@ void app_main() {
 	conf.scl_io_num = 22;
 	conf.sda_pullup_en = GPIO_PULLUP_ENABLE;
 	conf.scl_pullup_en = GPIO_PULLUP_ENABLE;
-	conf.master.clk_speed = 100000;
+	conf.master.clk_speed = I2C_MASTER_FREQ_HZ; //100000
+	conf.clk_flags = 0; //(V4.4)  is 0, the clock allocator will select only according to the desired frequency.
 	ESP_ERROR_CHECK(i2c_param_config(I2C_NUM_0, &conf));
 	printf("- i2c controller configured\r\n");
 
