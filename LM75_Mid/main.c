@@ -11,6 +11,7 @@
 #define LM75A_CONF 0X01
 #define MODE_SHUTDOWN 0X01
 #define MODE_NORMAL 0X00
+#define I2C_MASTER_FREQ_HZ 100000
 /**
  * Iniciliaza el puerto de comunicación I2C
  * @param[in] pinSDA: Pin de datos I2C Seleccionado por el usuario. 
@@ -24,7 +25,8 @@ void i2cinit(int pinSDA, int pinSCL)
       .scl_io_num = pinSCL,
       .sda_pullup_en = GPIO_PULLUP_ENABLE,
       .scl_pullup_en = GPIO_PULLUP_ENABLE,
-      .master.clk_speed = 100000};
+      .master.clk_speed = I2C_MASTER_FREQ_HZ,
+      .clk_flags= 0};
   i2c_param_config(I2C_NUM_0, &i2c_config);
   i2c_driver_install(I2C_NUM_0, I2C_MODE_MASTER, 0, 0, 0);
 }
