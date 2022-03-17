@@ -1,5 +1,14 @@
 # Basic Examples of FreeRTOS for the ESP32 Using ESP-IDF
 
+ESP32 is a SOC that features a 32-bit Xtensa LX6 dual-core (or single-core, depending on the version) microprocessor and an Ultra Low Power (ULP) Co-processor. Also Bluetooth v4.2 and Wi-Fi 802.11 b/g/n connectivity. As well as a security block that supports all the features of the IEEE 82.11 standard, including secure boot, flash encryption, hardware-accelerated cryptography and others.
+
+Espressif provides a development environment for the ESP32 called "ESP IoT Development Framework" (ESP-IDF) which has extensive documentation and examples that facilitate the development of applications that implement the different modules of the SOC. One of the advantages of the ESP-IDF is that it is based on the FreeRTOS real-time operating system, which allows to exploit the multitasking features of the ESP32. Additionally, it is possible to program the ESP32 using Arduino or MicroPython, which makes this device one of the most popular tools today for the development of IoT devices and DIY projects.
+
+This repository presents different examples focused on testing the operation of the different ESP32 functionalities using FreeRTOS. The examples have been validated using an ESP32 DEVKIT DOIT board and the documentation of each of the examples is being done to address the theoretical concepts of each of the topics addressed. 
+
+The documentation will be published on my personal web page https://www.mrdpaez.com.
+
+
 # Examples
 
 | Firmware       |Descripción			|
@@ -32,7 +41,9 @@
 |[WiFI Connect](https://github.com/DiegoPaezA/FreeRTOS_Examples/tree/master/wifi_connect_4)         |Wi-Fi Connect Library| 
 |[WiFI GetData](https://github.com/DiegoPaezA/FreeRTOS_Examples/tree/master/wifi_getdata_5)         |Wi-Fi Get Data From Internet| 
 |[WiFI MQTT](https://github.com/DiegoPaezA/FreeRTOS_Examples/tree/master/wifi_mqtt_6)               |Wi-Fi MQTT Protocol| 
-# Resources
+
+
+## References
 
 [1] https://www.freertos.org/a00106.html
 
