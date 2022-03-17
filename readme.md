@@ -13,9 +13,9 @@ The documentation will be published on my personal web page https://www.mrdpaez.
 
 | Firmware       |Descripción			|
 |----------------|-------------------------------|
-|[Task_FreeRTOS](https://github.com/DiegoPaezA/FreeRTOS_Examples/tree/master/Task_FreeRTOS)         | Basic Blink Example from ESP-IDF|
-|[Task scheduler](https://github.com/DiegoPaezA/FreeRTOS_Examples/tree/master/tareas_Planificador_1)| Testing Task and MultiCore|
-|[Task notifaction 1](https://github.com/DiegoPaezA/FreeRTOS_Examples/tree/master/TaskNotification_1)   |Simple basic Task Notification Example| 
+|[Task FreeRTOS](https://github.com/DiegoPaezA/FreeRTOS_Examples/tree/master/Task_FreeRTOS)           |Basic Blink Example from ESP-IDF Using Tasks|
+|[Task scheduler](https://github.com/DiegoPaezA/FreeRTOS_Examples/tree/master/tareas_Planificador_1)  |FreeRTOS and ESP32 MultiCore Task Testing|
+|[Task notifaction 1](https://github.com/DiegoPaezA/FreeRTOS_Examples/tree/master/TaskNotification_1) |FreeRTOS Task notification Basic Test | 
 |[Task notifaction 2](https://github.com/DiegoPaezA/FreeRTOS_Examples/tree/master/Task%20Notification%202)| Send data with a Task Notification|
 |[Semaphores Test](https://github.com/DiegoPaezA/FreeRTOS_Examples/tree/master/Semaforo_Test1)      | Basic Binary Semaphore Test   | 
 |[Semaphores_Mutex](https://github.com/DiegoPaezA/FreeRTOS_Examples/tree/master/Semaforo_Mutex_1)   | Basic Mutex Semaphore Test   | 
