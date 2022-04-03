@@ -52,3 +52,5 @@ The documentation will be published on my personal web page https://www.mrdpaez.
 [3] http://www.iotsharing.com/search/label/FreeRTOS
 
 [3] https://www.embarcados.com.br
+
+[4] https://www.learnesp32.com
