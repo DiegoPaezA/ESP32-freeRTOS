@@ -45,6 +45,8 @@ The documentation will be published on my personal web page https://www.mrdpaez.
 
 ## References
 
+The following references were used to implement the examples:
+
 [1] https://www.freertos.org/a00106.html
 
 [2] https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/system/index.html
