@@ -1,0 +1,5 @@
+# Files to be ignored by git
+.vscode
+.devcontainer
+build
+sdkconfig
